@@ -1,30 +1,60 @@
 import react from 'react';
 const Profits = () => {
     return (
-        <div className='flex justify-between text-2xl text-black	'>
-            <div className='flex justify-between text-green-400	space-x-4'>
-                <span className='flex items-center'><svg 
-                xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"
-                ><path d="M23.677 18.52c.914 1.523-.183 3.472-1.967 3.472h-19.414c-1.784 0-2.881-1.949-1.967-3.472l9.709-16.18c.891-1.483 3.041-1.48 3.93 0l9.709 16.18z"/></svg></span>
-                12.5%
+        <div className='grid grid-cols-3 gap-4 content-start justify-items-center	text-2xl text-black p-4 	'>
+            <div className='text-sm text-slate-500'>
+            <div className='text-black text-xl flex justify-center'>
+                
+                $184M
+                
             </div>
-            <div className='flex justify-between text-green-400	space-x-4'>
-                <span className='flex items-center'><svg 
-                xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"
-                ><path d="M23.677 18.52c.914 1.523-.183 3.472-1.967 3.472h-19.414c-1.784 0-2.881-1.949-1.967-3.472l9.709-16.18c.891-1.483 3.041-1.48 3.93 0l9.709 16.18z"/></svg></span>
-                69%
+            
+            value Today
             </div>
-            <div className='flex justify-between text-green-400	space-x-4'>
-                <span className='flex items-center'><svg 
-                xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"
-                ><path d="M23.677 18.52c.914 1.523-.183 3.472-1.967 3.472h-19.414c-1.784 0-2.881-1.949-1.967-3.472l9.709-16.18c.891-1.483 3.041-1.48 3.93 0l9.709 16.18z"/></svg></span>
-                420%
+            <div className='text-sm text-slate-500	'>
+            <div className='text-black text-xl flex justify-center'>
+                
+            84%
+                
             </div>
-            <div className='flex justify-between text-green-400	space-x-4'>
-                <span className='flex items-center'><svg 
-                xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"
-                ><path d="M23.677 18.52c.914 1.523-.183 3.472-1.967 3.472h-19.414c-1.784 0-2.881-1.949-1.967-3.472l9.709-16.18c.891-1.483 3.041-1.48 3.93 0l9.709 16.18z"/></svg></span>
-                89%
+            Portfolio Returns
+
+
+            </div>
+            <div className='text-sm text-slate-500	'>
+            <div className='text-black text-xl flex justify-center'>
+                
+            29%
+
+                
+            </div>
+            S&P500 Returns
+            </div>
+
+            <div className='text-sm text-slate-500	'>
+            <div className='text-black text-xl flex justify-center'>
+                
+            55%
+                
+            </div>
+            Surplus Returns
+            </div>
+            <div className='text-sm text-slate-500	'>
+            <div className='text-black text-xl flex justify-center'>
+                
+            $100M
+                
+            </div>
+            Initial Investment
+            </div>
+            <div className='text-sm text-slate-500 	'>
+            <div className='text-black text-xl flex justify-center'>
+                
+            $84M
+                
+            </div>
+            <div className='flex justify-center'>
+            Gain</div>
             </div>
                     </div>
     )

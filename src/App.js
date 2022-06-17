@@ -2,6 +2,7 @@ import Display from "./Components/Display";
 import Graph from "./Components/Chart";
 import LineChart from "./Components/LineChart";
 import PieChart from "./Components/PieChart";
+import NoteState from "./Components/NoteState";
 export default function App() {
   
   // let data = []
@@ -17,6 +18,7 @@ export default function App() {
   //   return data
   // }
   return (
-    <Display></Display>
+    <NoteState>
+    <Display></Display></NoteState>
   )
 }
