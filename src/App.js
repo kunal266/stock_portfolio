@@ -1,7 +1,7 @@
 import Display from "./Components/Display";
-import Graph from "./Components/Chart";
-import LineChart from "./Components/LineChart";
-import PieChart from "./Components/PieChart";
+// import Graph from "./Components/Chart";
+// import LineChart from "./Components/LineChart";
+// import PieChart from "./Components/PieChart";
 import NoteState from "./Components/NoteState";
 export default function App() {
   
